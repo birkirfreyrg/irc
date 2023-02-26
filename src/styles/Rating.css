@@ -1,0 +1,8 @@
+.thankYouImageContainer {
+    display: grid;
+  place-items: center;
+}
+
+.thankYouImage {
+    margin-top: 20px;
+}

@@ -1,6 +1,7 @@
-import img from "./images/icon-star.svg";
+import img from "../images/icon-star.svg";
+import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
-import './App.css';
+import '../styles/App.css';
 
 function App() {
   const [selectedButton, setSelectedButton] = useState(null);
