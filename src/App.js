@@ -1,7 +1,14 @@
 import img from "./images/icon-star.svg";
+import { useState } from "react";
 import './App.css';
 
 function App() {
+  const [selectedButton, setSelectedButton] = useState(null);
+  
+  function handleButtonClick(button) {
+    setSelectedButton(button);
+  }
+
   return (
     <div className="App">
       <div className="blackBackground">
@@ -13,11 +20,11 @@ function App() {
                                     to help us improve our offering!
         </p>
         <div className="rankingContainer">
-          <button className="ranking">1</button>
-          <button className="ranking">2</button>
-          <button className="ranking">3</button>
-          <button className="ranking">4</button>
-          <button className="ranking">5</button>
+          <button onClick={() => handleButtonClick(1)} className="ranking">1</button>
+          <button onClick={() => handleButtonClick(2)} className="ranking">2</button>
+          <button onClick={() => handleButtonClick(3)} className="ranking">3</button>
+          <button onClick={() => handleButtonClick(4)} className="ranking">4</button>
+          <button onClick={() => handleButtonClick(5)} className="ranking">5</button>
         </div>
         <button className="submitButtonRankings">
           SUBMIT

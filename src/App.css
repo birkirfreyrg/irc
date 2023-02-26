@@ -21,6 +21,7 @@
 
 .ranking {
   font-size: 16px;
+  font-weight: bold;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -39,6 +40,7 @@
   height: 45px;
   border: none;
   background-color: hsl(25, 97%, 53%);
+  letter-spacing: 1px;
 }
 
 .rankingContainer{
@@ -75,4 +77,19 @@ h1 {
   height: 45px;
   width: 45px;
   background-color: #262f37;
+}
+
+button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%);
+}
+
+button:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submitButtonRankings:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
