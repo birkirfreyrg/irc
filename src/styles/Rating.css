@@ -1,8 +1,54 @@
 .thankYouImageContainer {
     display: grid;
-  place-items: center;
+    place-items: center;
 }
 
 .thankYouImage {
     margin-top: 20px;
+}
+
+.selectionNotifierContainer {
+    line-height: 30px;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.selectionNotifierBorder {
+    display: inline-block;
+    background-color: #262f37;
+    border-radius: 20px;
+    width: 190px;
+}
+
+.selectionNotifierText {
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thankYouH1Container {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.thankYouH1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thankYouRatingTextContainer {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.thankYouRatingText {
+    font-size: 15px;
+    margin-top: -5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: hsl(217, 12%, 63%);
+    letter-spacing: .5px;  
 }

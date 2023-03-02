@@ -1,5 +1,4 @@
 import img from "../images/icon-star.svg";
-import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 import '../styles/App.css';
 

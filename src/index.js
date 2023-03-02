@@ -21,25 +21,6 @@ const router = createBrowserRouter([
     element: <RatingSubmitted />,
   },
 ]);
-/*
-export default function Index() {
-  return (
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Home />}>
-          <Route path="/ratingsubmitted" element={<RatingSubmitted />} />
-          <Route path="/*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
-  );
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Index />);
-*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
