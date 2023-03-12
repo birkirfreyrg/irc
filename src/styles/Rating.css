@@ -1,3 +1,11 @@
+.Rating {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
 .thankYouImageContainer {
     display: grid;
     place-items: center;

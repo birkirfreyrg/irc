@@ -1,16 +1,17 @@
 import img from "../images/illustration-thank-you.svg";
 import '../styles/Rating.css';
 
-function Rating() {
+function Rating(props) {
+
     return (
-        <div className="App">
+        <div className="Rating">
             <div className="blackBackground">
                 <div className="thankYouImageContainer">
                     <img src={img} alt="Pos Device with credit card on thank you page" className="thankYouImage"></img>
                 </div>
                 <div className="selectionNotifierContainer">
                     <p className="selectionNotifierText">
-                        <span className="selectionNotifierBorder">You selected # out of 5</span>
+                        <span className="selectionNotifierBorder">You selected {props.myProp} out of 5</span>
                     </p>
                 </div>
                 <div className="thankYouH1Container">
