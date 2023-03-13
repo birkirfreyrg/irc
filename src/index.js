@@ -8,17 +8,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from "./Components/App";
 import NoPage from "./Components/NoPage";
-import RatingSubmitted from "./Components/Rating"
+//import RatingSubmitted from "./Components/Rating"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/irc/",
     element: <Home />,
     errorElement: <NoPage />,
-  },
-  {
-    path: "ratingsubmitted",
-    element: <RatingSubmitted />,
   },
 ]);
 

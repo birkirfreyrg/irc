@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/birkirfreyrg/irc](https://github.com/birkirfreyrg/irc)
+- Live Site URL: [https://birkirfreyrg.github.io/irc/](https://birkirfreyrg.github.io/irc/)
 
 ## My process
 
@@ -46,6 +46,8 @@ I learned how to use React useStates and how to get my useState properties over 
 ### Continued development
 
 I'd like to continue working with React and get more comfortable with using useStates, maybe get into useEffects and more interesting functionality that React has to offer. Further more I'd like to improve my JavaScript and soon transfer over to using only TypeScript.
+
+Looking back I could have figured out routing better for this project. I was having problem and desited to go a different path by just displaying the next "screen" (the thank you screen) instead of actually routing to a different path. (/ratingsubmitted). I will definitely use routing for future projects. 
 
 ## Author
 
